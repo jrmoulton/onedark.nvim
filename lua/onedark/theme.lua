@@ -246,7 +246,7 @@ function M.setup(config)
     TSTagDelimiter = { fg = c.red }, -- Tag delimiter like `<` `>` `/`
     TSTagAttribute = { fg = c.orange, style = config.keywordStyle },
     TSVariable = { style = config.variableStyle, fg = c.red }, -- Any variable name that does not have another highlight.
-    TSVariableBuiltin = { fg = c.red }, -- Variable names that are defined by the languages, like `this` or `self`.
+    TSVariableBuiltin = { fg = c.purple }, -- Variable names that are defined by the languages, like `this` or `self`.
 
     TSTextReference = { fg = c.red }, -- FIXME
     -- TSText              = { };    -- For strings considered text in a markup language.

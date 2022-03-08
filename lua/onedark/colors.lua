@@ -25,7 +25,7 @@ function M.setup(config)
     fg_gutter = '#5c6370',
     dark5 = '#abb2bf',
     blue = '#61afef',
-    cyan = '#56b6c2',
+    cyan = '#48b0bd',
     purple = '#c678dd',
     orange = '#d19a66',
     yellow = '#e5c07b',
