@@ -82,8 +82,7 @@ function util.highlight(group, color)
   if color.sp then util.colorsUsed[color.sp] = true end
 
   local style = color.style and "gui=" .. color.style or "gui=NONE"
-  -- local fg = color.fg and "guifg=" .. util.getColor(color.fg) or "guifg=NONE"
-  local fg = color.fg and "guifg=White"
+  local fg = color.fg and "guifg=" .. util.getColor(color.fg) or "guifg=NONE"
   local bg = color.bg and "guibg=" .. util.getColor(color.bg) or "guibg=NONE"
   local sp = color.sp and "guisp=" .. util.getColor(color.sp) or ""
 
