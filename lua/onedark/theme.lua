@@ -95,7 +95,7 @@ function M.setup(config)
     -- Conditional   = { }, --  if, then, else, endif, switch, etc.
     -- Repeat        = { }, --   for, do, while, etc.
     -- Label         = { }, --    case, default, etc.
-    Operator = { fg = c.red }, -- "sizeof", "+", "*", etc.
+    Operator = { fg = c.fg }, -- "sizeof", "+", "*", etc.
     Keyword = { fg = c.purple, style = config.keywordStyle }, --  any other keyword
     -- Exception     = { }, --  try, catch, throw
 
